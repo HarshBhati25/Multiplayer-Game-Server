@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Welcome to the Multiplayer Game</h1>
+            <div id="auth">
+                <input type="text" id="username" placeholder="Enter your username" />
+                <button id="loginBtn">Login</button>
+            </div>
+        </header>
+        <main>
+            <div id="gameArea" style="display: none;">
+                <h2>Game Area</h2>
+                <div id="gameStatus"></div>
+                <div id="playerStats"></div>
+                <button id="startGameBtn">Start Game</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 Multiplayer Game</p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
